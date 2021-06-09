@@ -1,5 +1,4 @@
 import './App.css';
-import Content from './Components/Content';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
 import Tournaments from './Components/Tournaments';

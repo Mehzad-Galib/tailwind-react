@@ -42,7 +42,7 @@ const Tournaments = () => {
         <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
             <img src={Copa} alt="" className="w-full" />
             <div className="px-4 py-4">
-                <div className="font-bold text-xl mb-2">EURO 2020</div>
+                <div className="font-bold text-xl mb-2">Copa America 2020</div>
                 <p className="text-gray-600 text-base">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolores esse, fuga quo sint illum.
                 </p>
