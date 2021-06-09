@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <nav className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-sans' role='navigation'>
-        <Link to="/" className="pl-8">
+        <Link to="/" className="pl-8 hover:bg-red-500 ">
           Football Mania
         </Link>
         <div className="px-4 cursor-pointer md:hidden">
@@ -25,13 +25,13 @@ const Navbar = () => {
           </svg>
         </div>
         <div className="pr-8 md:block hidden">
-          <button as={Link} to='/elsewhere' className='p-4'>Else</button>
+          
           <Link className="p-2 bg-transparent hover:bg-red-700" to="/">
             Home
           </Link>
-          <Link className="p-4" to="/menu">
-            Menu
-          </Link>
+          <a href='#tournament' className="p-4">
+            Tournaments
+          </a>
           <Link className="p-4" to="/about">
             About
           </Link>
